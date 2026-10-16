@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define D 2.54
-#define P 2.32
+#define P 2.32166
 
 int task1();
 int task2();
