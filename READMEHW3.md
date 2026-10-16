@@ -22,8 +22,13 @@
 ```c
 #include <stdio.h>
 #include <locale.h>
-
+int dz();
 int main()
+{
+    set locale(LC_ALL, ".UTF-8")
+    dz()
+}
+int dz()
 {
     float C;
     printf("Введите температуру в градусах Цельсия: ");
